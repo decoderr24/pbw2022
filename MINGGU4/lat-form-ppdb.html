@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FORMULIR PPDB JALUR ZONASI TAHUN 2022</title>
+    <h1 align="center"><b>FORMULIR PPDB TAHUN 2022</b></h1>
+    <font face="Arial Black" size="12"></font>
+    <style type="text/css">
+        body{
+            margin:10px 300px;
+            background-color: cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+    <form action="proses.php" method="GET">
+        <fieldset style="background: cyan;">
+            <table>
+                <d1>
+                    <dt><h3><b>INFO PENDAFTARAN</b></h3></dt>
+                    <dd>
+                        <p>
+                            <label><b>NISN :</b></label>
+                            <input type="number" name="nisn" aria-placeholder="masukkan nisn"/>
+                        </p>
+                        <p>
+                            <label><b>Asal Sekolah :</b></label>
+                            <input type="text" name="tempat" aria-placeholder="asal sekolah..."/>
+                        </p>
+                        <p>
+                            <label><b>Tahun Lulus :</b></label>
+                            <input type="date" name="Tahun Lulus" aria-placeholder="tahun lulus..."/>
+                        </p>
+                    </dd>
+                </d1>
+                <d1>
+                    <dt><h3><b>DATA CALON PESERTA</b></h3></dt>
+                    <dd>
+                        <p>
+                            <label><b>Nama lengkap</b></label>
+                            <input type="text" name="Nama" size="15" aria-placeholder="nama..."/>
+                        </p>
+                        <p>
+                            <label><b>NIK :</b></label>
+                            <input type="number" name="nik" aria-placeholder="nik...."/>
+                        </p>
+                        <p>
+                            <label><b>Tempat/Tanggal Lahir :</b></label>
+                            <input type="date" name="ttl" aria-placeholder="ttl..."/>
+                        </p>
+                        <p>
+                            <label><b>Jenis kelamin</b></label>
+                            <input type="radio" name="opsi" value="Laki-Laki"/>Laki-Laki
+                            <input type="radio" name="opsi" value="Perempuan"/>Perempuan
+                        </p>
+                        <p>
+                            <label><b>Agama :</b></label>
+                            <select name="agama">
+                                <option value="Islam">Islam</option>
+                                <option value="Kristen">Kristen</option>
+                                <option value="Katolik">Katolik</option>
+                                <option value="Hindu">Hindu</option>
+                                <option value="Budha">Budha</option>
+                                <option value="Konghucu">Konghucu</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label><b>Alamat :</b></label>
+                            <input type="text" name="alamat" aria-placeholder="youre alamat..."/>
+                        </p>
+                        <p>
+                            <label><b>Email :</b></label>
+                            <input type="text" name="email" aria-placeholder="youre email..."/>
+                        </p>
+                    </dd>
+                <d1>
+                    <dt><h3><b>DATA ORANG TUA</b></h3></dt>
+                        <dd>
+                            <p>
+                                <label><b>Nomor KK :</b></label>
+                                <input type="number" name="no kk" aria-placeholder="input kk..."/>
+                            </p>
+                            <p>
+                                <label><b>Nama Ibu Kandung :</b></label>
+                                <input type="text" name="nama" aria-placeholder="input nama..."/>
+                            </p>
+                            <p>
+                                <label><b>Agama :</b></label>
+                                <select name="agama">
+                                    <option value="Islam">Islam</option>
+                                    <option value="Kristen">Kristen</option>
+                                    <option value="Katolik">Katolik</option>
+                                    <option value="Hindu">Hindu</option>
+                                    <option value="Budha">Budha</option>
+                                    <option value="Konghucu">Konghucu</option>
+                                </select>
+                            </p>
+                            <p>
+                                <label><b>Pekerjaan :</b></label>
+                                <input type="text" name="pekerjaan" aria-placeholder="input pekerjaan..."/>
+                            </p>
+                        </dd>
+                </d1>
+                </d1>
+                </d1>
+            </table>
+            <button name="submit">submit</button>
+        </fieldset>
+    </form>
+
+</body>
+</html> 
