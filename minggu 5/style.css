@@ -1,0 +1,97 @@
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Style */
+
+body {
+    width: 900px;
+    margin: auto;
+}
+
+.header {
+    padding: 30px 20px;
+    background-color: #C1C1C1;
+}
+.header h1 {
+    font: bold 30px monospace;
+    color: #f70000c0;
+    margin-bottom: 10px;
+}
+.header p {
+    font: italic 15px serif;
+    color: #f7a000;
+}
+nav {
+    padding: 12px 20px;
+    background-color: #204eb2;
+}
+nav a {
+    text-decoration: none;
+    padding: 5px;
+    color: #FFF;
+}
+.post {
+    padding: 10px 20px;
+    background-color: #f5fffa;
+    text-align: justify;
+}
+.post h2 {
+    font: bold 20px sans-serif;
+    margin-bottom: 10px;
+}
+.post h3 {
+    font: bold 15px sans-serif;
+    margin-bottom: 5px;   
+}
+.post p {
+    font: normal 12px/20px serif;
+    margin-bottom: 8px;
+}
+aside {
+    padding: 10px 20px;
+    background-color: #fdf5e6;
+    float: right;
+    height: 100%;
+    margin-left: 10px;
+}
+aside li {
+    margin-bottom: 10px;
+}
+aside a {
+    text-decoration: none;
+}
+.footer {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #f5fffa;
+    text-align: center;
+}
