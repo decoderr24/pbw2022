@@ -1,0 +1,41 @@
+body{ 
+    background: #35A9DB; 
+    font-family: roboto; 
+    text-align: center; 
+   } 
+     
+   h1{ 
+    color: #fff; 
+   }
+   .ketengah{ 
+    margin: 10px auto; 
+    width: 1150px; 
+   } 
+     
+   .kotak{ 
+    background: blue; 
+    width: 500px; 
+    float: left; 
+    height: 250px; 
+    margin: 30px; 
+   } 
+     
+   .gradient1 { 
+       background: rgb(131,58,180);
+       background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+   } 
+     
+   .gradient2 { 
+       background: rgb(131,58,180);
+       background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(74,29,253,1) 50%, rgba(252,176,69,1) 100%);
+   } 
+     
+   .gradient3 {   
+       background: rgb(63,94,251);
+       background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+   } 
+     
+   .gradient4 { 
+       background: rgb(251,66,63);
+       background: radial-gradient(circle, rgba(251,66,63,1) 0%, rgba(252,204,70,1) 100%);
+   }
