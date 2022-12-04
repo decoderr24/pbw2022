@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kuis</title>
+</head>
+<body>
+    <h1>Data Nama Mhs</h1>
+    <form action="javascript:void(0);" method="post" onsubmit="apl.Add()">
+        <input type="text" placeholder="Nama" id="add-name">
+        <input type="submit" value="+">
+        <p>Jumlah ?</p>
+        <table border="1">
+            <thead>
+                <th>
+                    <td>Nama</td>
+                </th>
+            </thead>
+            <tbody id="mhs">
+
+            </tbody>
+        </table>
+    </form>
+    <script>
+        var apl = new function() {
+            this.el = document.getElementById('mhs')
+            this.mhs = ['Rifky', 'Ilham bocil kematian', 'Andra', 'parjo'];
+
+                this.barisAll = function(){
+                    var data = '';
+                    
+                    if (this,mhs.length > 0) {
+                        for (i = 0; i < this.mhs.lenght; i++) {
+                            data += '<tr>';
+                        }
+                    }
+                }
+        }
+    </script>
+</body>
+</html>
